@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.128" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/content_main.xml" value="0.1640625" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/fragment_home_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/fragment_settings_menu.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/main_with_drawer.xml" value="0.1188542112013681" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/menu/nav_drawer_menu.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/app/FrAcci-master/app/src/main/res/menu/navigation_menu.xml" value="0.209375" />
+        <entry key="..\:/AndroidProjects/app/FrAcci/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Projekt/FrAcci/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2775" />
+        <entry key="..\:/Projekt/FrAcci/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2775" />
+        <entry key="..\:/Projekt/FrAcci/app/src/main/res/layout/activity_fullscreen.xml" value="0.7997698504027618" />
+        <entry key="..\:/Projekt/FrAcci/app/src/main/res/layout/activity_main.xml" value="0.23157894736842105" />
+        <entry key="..\:/Projekt/Java Mobile Development/FrAcci/app/src/main/res/layout/activity_main.xml" value="0.23157894736842105" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
