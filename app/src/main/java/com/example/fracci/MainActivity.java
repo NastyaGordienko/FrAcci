@@ -19,6 +19,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -99,10 +100,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Toolbar toolbar;
     ImageView mImageView;
 
-
-
-
-
     Boolean flag=false;
 
     Car car;
@@ -111,8 +108,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      //  VK.login(new MainActivity(), new ArrayList<>());
-        //String[] fingerprints = VKUtils.getCertificateFingerprint(this, this.getPackageName());
+
+
 
 
 
@@ -164,7 +161,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //            }
 //        });
     }
-
+public void registration(){
+        ArrayList<VKScope> list=new ArrayList<VKScope>();
+        list.add(VKScope.WALL);
+        list.add(VKScope.PHOTOS);
+        VK.login(this,list);
+}
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
       VKAuthCallback   callback=new VKAuthCallback() {
@@ -183,7 +185,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
+    public class SampleApplication {
 
+
+
+    }
+//    class SampleApplication: Application() {
+//        override fun onCreate() {
+//            super.onCreate()
+//            VK.addTokenExpiredHandler(tokenTracker)
+//        }
+//
+//        private val tokenTracker = object: VKTokenExpiredHandler {
+//            override fun onTokenExpired() {
+//                // token expired
+//            }
+//        }
+//    }
 
 //Методы для интерфейса/дизайна navDrawer--------------------------------------------------------------
     @Override
